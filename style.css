@@ -1,0 +1,27 @@
+/* ************* Hero Image ************** */
+.hero-image{
+    --hero-image:url(./assets/pizza_heroImage.jpg);
+    --hero-atachment:fixed;
+    background-image:var(--hero-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: var(--hero-atachment);
+}
+.hero-image-opacity{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    background-color:rgba(0,0,0,0.5);
+}
+.hero-image-title{
+    font-size: 7.5vw;
+    color:#fff;
+}
+.hero-image-subtitle{
+    font-size: 5.5vW;
+    color:#fff;
+}
